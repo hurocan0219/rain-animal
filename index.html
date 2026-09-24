@@ -1,0 +1,2461 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>RAIN ANIMALS | Official T-Shirt Store</title>
+
+<meta name="description"
+content="RAIN ANIMALS Official Store — 雨、動物、植物から生まれたTシャツコレクション。">
+
+<style>
+
+/* =========================
+  BASE
+========================= */
+
+:root {
+   --black: #17201b;
+   --green: #376b57;
+   --light-green: #9ccbb4;
+   --white: #ffffff;
+   --paper: #f5f6f2;
+   --gray: #6d7770;
+   --line: #dce1dc;
+   --amazon: #ff9900;
+}
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   font-family:
+       -apple-system,
+       BlinkMacSystemFont,
+       "Helvetica Neue",
+       Arial,
+       sans-serif;
+
+   background: var(--paper);
+   color: var(--black);
+
+   line-height: 1.5;
+}
+
+a {
+   color: inherit;
+}
+
+
+/* =========================
+  TOP BAR
+========================= */
+
+.top-bar {
+
+   background: var(--black);
+   color: white;
+
+   text-align: center;
+
+   font-size: 10px;
+   letter-spacing: .18em;
+
+   padding: 9px 15px;
+}
+
+
+/* =========================
+  HEADER
+========================= */
+
+header {
+
+   height: 78px;
+
+   background:
+       rgba(245,246,242,.94);
+
+   backdrop-filter: blur(15px);
+
+   border-bottom:
+       1px solid var(--line);
+
+   position: sticky;
+   top: 0;
+
+   z-index: 100;
+
+   display: flex;
+
+   align-items: center;
+   justify-content: space-between;
+
+   padding: 0 5vw;
+}
+
+.logo {
+
+   font-size: 17px;
+
+   font-weight: 900;
+
+   letter-spacing: .22em;
+
+   text-decoration: none;
+}
+
+.logo span {
+
+   color: var(--green);
+
+}
+
+nav {
+
+   display: flex;
+
+   gap: 28px;
+}
+
+nav a {
+
+   text-decoration: none;
+
+   font-size: 10px;
+
+   letter-spacing: .18em;
+
+   color: #56625b;
+
+}
+
+nav a:hover {
+
+   color: var(--green);
+
+}
+
+
+/* =========================
+  HERO
+========================= */
+
+.hero {
+
+   min-height: 680px;
+
+   max-width: 1500px;
+
+   margin: auto;
+
+   padding:
+       70px 5vw;
+
+   display: grid;
+
+   grid-template-columns:
+       1fr 1fr;
+
+   align-items: center;
+
+   position: relative;
+
+   overflow: hidden;
+}
+
+.hero-copy {
+
+   padding-right: 30px;
+
+}
+
+.kicker {
+
+   font-size: 10px;
+
+   letter-spacing: .45em;
+
+   color: var(--green);
+
+   font-weight: 700;
+
+   margin-bottom: 22px;
+}
+
+.hero h1 {
+
+   font-size:
+       clamp(55px, 8.5vw, 125px);
+
+   line-height: .8;
+
+   letter-spacing: -.075em;
+
+   font-weight: 950;
+}
+
+.hero h1 span {
+
+   color: var(--green);
+
+}
+
+.hero-copy p {
+
+   max-width: 500px;
+
+   margin: 35px 0;
+
+   color: var(--gray);
+
+   font-size: 15px;
+
+   line-height: 2;
+}
+
+.cta {
+
+   display: inline-flex;
+
+   padding: 15px 23px;
+
+   background: var(--black);
+
+   color: white;
+
+   text-decoration: none;
+
+   font-size: 10px;
+
+   letter-spacing: .18em;
+
+   transition: .3s;
+}
+
+.cta:hover {
+
+   background: var(--green);
+
+}
+
+
+/* =========================
+  HERO PRODUCT
+========================= */
+
+.hero-product {
+
+   position: relative;
+
+   min-height: 510px;
+
+   display: grid;
+
+   place-items: center;
+}
+
+.hero-product::before {
+
+   content: "";
+
+   position: absolute;
+
+   width: 420px;
+   height: 420px;
+
+   border-radius: 50%;
+
+   background:
+       #dbe8df;
+}
+
+.hero-product img {
+
+   width: min(92%, 570px);
+
+   position: relative;
+
+   filter:
+       drop-shadow(
+           0 28px 24px
+           rgba(23,32,27,.18)
+       );
+
+   transform:
+       rotate(-3deg);
+
+}
+
+
+/* =========================
+  RAIN
+========================= */
+
+.hero::after {
+
+   content: "";
+
+   position: absolute;
+
+   inset: 0;
+
+   pointer-events: none;
+
+   background:
+
+       repeating-linear-gradient(
+           112deg,
+           transparent 0 42px,
+           rgba(55,107,87,.07)
+           43px 44px
+       );
+}
+
+
+/* =========================
+  SECTION
+========================= */
+
+.section {
+
+   max-width: 1400px;
+
+   margin: auto;
+
+   padding:
+       110px 5vw;
+}
+
+.section-head {
+
+   display: flex;
+
+   justify-content: space-between;
+
+   align-items: end;
+
+   gap: 30px;
+
+   margin-bottom: 40px;
+}
+
+.section-head h2 {
+
+   font-size:
+       clamp(35px,5vw,64px);
+
+   letter-spacing:
+       -.055em;
+
+   line-height: .9;
+}
+
+.section-head p {
+
+   max-width: 440px;
+
+   color: var(--gray);
+
+   font-size: 12px;
+
+   line-height: 1.9;
+}
+
+
+/* =========================
+  FILTER
+========================= */
+
+.filters {
+
+   display: flex;
+
+   align-items: center;
+
+   gap: 9px;
+
+   margin-bottom: 28px;
+
+   flex-wrap: wrap;
+}
+
+.filter {
+
+   border:
+       1px solid var(--line);
+
+   background: white;
+
+   padding:
+       10px 17px;
+
+   font-size: 9px;
+
+   letter-spacing: .16em;
+
+   cursor: pointer;
+}
+
+.filter.active,
+.filter:hover {
+
+   border-color:
+       var(--green);
+
+   color:
+       var(--green);
+}
+
+.search {
+
+   margin-left: auto;
+
+   border:
+       1px solid var(--line);
+
+   background: white;
+
+   padding:
+       10px 14px;
+
+   width: 220px;
+
+   font-size: 11px;
+
+   outline: none;
+}
+
+.search:focus {
+
+   border-color:
+       var(--green);
+}
+
+
+/* =========================
+  PRODUCTS
+========================= */
+
+.products {
+
+   display: grid;
+
+   grid-template-columns:
+       repeat(4,1fr);
+
+   gap: 18px;
+}
+
+.product {
+
+   background: white;
+
+   border:
+       1px solid var(--line);
+
+   position: relative;
+
+   overflow: hidden;
+
+   transition:
+       .35s;
+}
+
+.product:hover {
+
+   transform:
+       translateY(-6px);
+
+   box-shadow:
+       0 18px 45px
+       rgba(23,32,27,.10);
+}
+
+
+/* =========================
+  PRODUCT IMAGE
+========================= */
+
+.product-image {
+
+   position: relative;
+
+   background:
+       #e6e9e5;
+
+   overflow: hidden;
+}
+
+.product-image img {
+
+   display: block;
+
+   width: 100%;
+
+   transition:
+       .55s;
+}
+
+.product:hover
+.product-image img {
+
+   transform:
+       scale(1.04);
+}
+
+
+/* =========================
+  BADGE
+========================= */
+
+.badge {
+
+   position: absolute;
+
+   z-index: 5;
+
+   top: 12px;
+   left: 12px;
+
+   background:
+       var(--black);
+
+   color: white;
+
+   font-size: 8px;
+
+   letter-spacing: .15em;
+
+   padding:
+       6px 8px;
+}
+
+
+/* =========================
+  QUICK VIEW
+========================= */
+
+.quick-view {
+
+   position: absolute;
+
+   z-index: 5;
+
+   right: 12px;
+   top: 12px;
+
+   background:
+       rgba(255,255,255,.9);
+
+   border:
+       1px solid #d5dbd6;
+
+   padding:
+       7px 9px;
+
+   font-size: 8px;
+
+   letter-spacing: .12em;
+
+   cursor: pointer;
+
+   opacity: 0;
+
+   transition: .2s;
+}
+
+.product:hover
+.quick-view {
+
+   opacity: 1;
+}
+
+
+/* =========================
+  PRODUCT INFO
+========================= */
+
+.product-info {
+
+   padding: 17px;
+}
+
+.product-meta {
+
+   display: flex;
+
+   justify-content:
+       space-between;
+
+   color:
+       #819088;
+
+   font-size: 8px;
+
+   letter-spacing: .12em;
+
+   margin-bottom: 9px;
+}
+
+.product h3 {
+
+   font-size: 16px;
+
+   letter-spacing:
+       -.02em;
+}
+
+.product-description {
+
+   font-size: 10px;
+
+   color: var(--gray);
+
+   margin-top: 4px;
+}
+
+
+/* =========================
+  PRICE
+========================= */
+
+.buy-row {
+
+   display: flex;
+
+   justify-content:
+       space-between;
+
+   align-items: center;
+
+   margin:
+       18px 0 12px;
+}
+
+.price {
+
+   font-size: 16px;
+
+   font-weight: 700;
+}
+
+.color {
+
+   font-size: 8px;
+
+   border:
+       1px solid var(--line);
+
+   padding:
+       4px 7px;
+
+   color:
+       #65736b;
+}
+
+
+/* =========================
+  AMAZON BUTTON
+========================= */
+
+.amazon-button {
+
+   display: flex;
+
+   justify-content: center;
+
+   align-items: center;
+
+   gap: 10px;
+
+   width: 100%;
+
+   background:
+       var(--amazon);
+
+   color:
+       #111;
+
+   text-decoration: none;
+
+   font-size: 9px;
+
+   font-weight: 800;
+
+   letter-spacing: .12em;
+
+   padding: 12px;
+
+   transition: .2s;
+}
+
+.amazon-button:hover {
+
+   filter:
+       brightness(.94);
+
+}
+
+
+/* =========================
+  STORY
+========================= */
+
+.story {
+
+   background:
+       var(--black);
+
+   color:
+       white;
+}
+
+.story-inner {
+
+   max-width: 1400px;
+
+   margin: auto;
+
+   padding:
+       110px 5vw;
+
+   display: grid;
+
+   grid-template-columns:
+       1fr 1fr;
+
+   gap: 80px;
+
+   align-items: center;
+}
+
+.story h2 {
+
+   font-size:
+       clamp(40px,5vw,70px);
+
+   line-height: .9;
+
+   letter-spacing:
+       -.06em;
+}
+
+.story h2 span {
+
+   color:
+       var(--light-green);
+}
+
+.story p {
+
+   color:
+       #b5c0ba;
+
+   line-height: 2;
+
+   margin-top: 25px;
+
+   max-width: 540px;
+}
+
+.story-card {
+
+   border:
+       1px solid
+       rgba(255,255,255,.14);
+
+   padding: 35px;
+
+   min-height: 390px;
+
+   display: flex;
+
+   flex-direction: column;
+
+   justify-content:
+       space-between;
+
+   background:
+       linear-gradient(
+           145deg,
+           #23382e,
+           #111b16
+       );
+}
+
+.story-symbol {
+
+   font-size: 80px;
+}
+
+
+/* =========================
+  MANIFESTO
+========================= */
+
+.manifesto {
+
+   padding:
+       140px 20px;
+
+   text-align: center;
+
+   background:
+       #e6ece7;
+}
+
+.manifesto h2 {
+
+   font-size:
+       clamp(55px,10vw,140px);
+
+   line-height: .78;
+
+   letter-spacing:
+       -.08em;
+}
+
+.manifesto h2 span {
+
+   color:
+       var(--green);
+}
+
+.manifesto p {
+
+   margin-top: 28px;
+
+   color:
+       #68756d;
+
+   font-size: 9px;
+
+   letter-spacing: .45em;
+}
+
+
+/* =========================
+  FOOTER
+========================= */
+
+footer {
+
+   background:
+       var(--black);
+
+   color:
+       #aeb9b2;
+
+   padding:
+       45px 5vw;
+
+   display: flex;
+
+   justify-content:
+       space-between;
+
+   font-size: 9px;
+
+   letter-spacing: .18em;
+}
+
+footer a {
+
+   margin-left: 22px;
+
+   text-decoration: none;
+}
+
+
+/* =========================
+  MODAL
+========================= */
+
+.modal {
+
+   position: fixed;
+
+   inset: 0;
+
+   background:
+       rgba(0,0,0,.72);
+
+   z-index: 1000;
+
+   display: none;
+
+   align-items: center;
+
+   justify-content: center;
+
+   padding: 20px;
+}
+
+.modal.active {
+
+   display: flex;
+}
+
+.modal-box {
+
+   background: white;
+
+   max-width: 680px;
+
+   width: 100%;
+
+   position: relative;
+
+   padding: 15px;
+}
+
+.modal-box img {
+
+   width: 100%;
+
+   display: block;
+}
+
+.close {
+
+   position: absolute;
+
+   right: 10px;
+   top: 10px;
+
+   width: 35px;
+   height: 35px;
+
+   border: none;
+
+   background:
+       var(--black);
+
+   color: white;
+
+   font-size: 22px;
+
+   cursor: pointer;
+
+   z-index: 5;
+}
+
+
+/* =========================
+  MOBILE
+========================= */
+
+@media(max-width:1050px) {
+
+   .products {
+
+       grid-template-columns:
+           repeat(3,1fr);
+   }
+
+}
+
+@media(max-width:800px) {
+
+   header {
+
+       height: 65px;
+
+       padding:
+           0 18px;
+   }
+
+   nav {
+
+       gap: 14px;
+   }
+
+   nav a {
+
+       font-size: 8px;
+   }
+
+   .hero {
+
+       grid-template-columns:
+           1fr;
+
+       text-align: center;
+   }
+
+   .hero-copy {
+
+       padding:
+           0;
+   }
+
+   .hero-copy p {
+
+       margin:
+           35px auto;
+   }
+
+   .hero-product {
+
+       min-height:
+           420px;
+   }
+
+   .story-inner {
+
+       grid-template-columns:
+           1fr;
+
+       gap: 45px;
+   }
+
+}
+
+@media(max-width:620px) {
+
+   .products {
+
+       grid-template-columns:
+           repeat(2,1fr);
+
+       gap: 10px;
+   }
+
+   .product-info {
+
+       padding: 12px;
+   }
+
+   .product h3 {
+
+       font-size: 13px;
+   }
+
+   .product-description {
+
+       font-size: 9px;
+   }
+
+   .price {
+
+       font-size: 13px;
+   }
+
+   .search {
+
+       width: 100%;
+
+       margin-left: 0;
+   }
+
+   .section {
+
+       padding:
+           80px 18px;
+   }
+
+   footer {
+
+       flex-direction:
+           column;
+
+       gap: 18px;
+   }
+
+   footer a {
+
+       margin-left: 0;
+
+       margin-right: 18px;
+   }
+
+}
+
+@media(max-width:420px) {
+
+   .products {
+
+       grid-template-columns:
+           1fr;
+   }
+
+}
+
+</style>
+</head>
+
+
+<body>
+
+
+<!-- TOP BAR -->
+
+<div class="top-bar">
+
+   RAIN ANIMALS OFFICIAL COLLECTION
+
+</div>
+
+
+<!-- HEADER -->
+
+<header>
+
+   <a href="#" class="logo">
+
+       RAIN <span>ANIMALS</span>
+
+   </a>
+
+
+   <nav>
+
+       <a href="#shop">
+           SHOP
+       </a>
+
+       <a href="#story">
+           OUR STORY
+       </a>
+
+       <a href="#about">
+           ABOUT
+       </a>
+
+   </nav>
+
+</header>
+
+
+<!-- HERO -->
+
+<section class="hero">
+
+
+   <div class="hero-copy">
+
+       <div class="kicker">
+
+           OFFICIAL T-SHIRT COLLECTION
+
+       </div>
+
+
+       <h1>
+
+           RAIN<br>
+
+           <span>ANIMALS</span>
+
+       </h1>
+
+
+       <p>
+
+           雨と、動物と、植物。<br>
+
+           毎日の服に、少しだけ野生を。
+
+       </p>
+
+
+       <a
+           href="#shop"
+           class="cta">
+
+           SHOP THE COLLECTION →
+
+       </a>
+
+   </div>
+
+
+   <!-- HERO PRODUCT -->
+
+   <div class="hero-product">
+
+       <img
+           src="images/001-rain-poodle.svg"
+           alt="RAIN POODLE T-shirt">
+
+   </div>
+
+
+</section>
+
+
+<!-- SHOP -->
+
+<section
+   class="section"
+   id="shop">
+
+
+   <div class="section-head">
+
+       <div>
+
+           <div class="kicker">
+
+               01 / SHOP
+
+           </div>
+
+           <h2>
+
+               THE<br>
+               COLLECTION
+
+           </h2>
+
+       </div>
+
+
+       <p>
+
+           RAIN ANIMALSの
+           10デザイン。
+
+           Amazonで購入できる
+           Tシャツを
+           公式サイトから探せます。
+
+       </p>
+
+   </div>
+
+
+   <!-- FILTER -->
+
+   <div class="filters">
+
+       <button
+           class="filter active"
+           data-filter="all">
+
+           ALL
+
+       </button>
+
+
+       <button
+           class="filter"
+           data-filter="dog">
+
+           DOGS
+
+       </button>
+
+
+       <button
+           class="filter"
+           data-filter="cat">
+
+           CATS
+
+       </button>
+
+
+       <input
+           id="search"
+           class="search"
+           placeholder="Search animal...">
+
+   </div>
+
+
+   <!-- PRODUCTS -->
+
+   <div class="products">
+
+
+       <!-- 01 -->
+
+       <article
+           class="product"
+           data-category="dog"
+           data-name="rain poodle">
+
+
+           <span class="badge">
+
+               NEW
+
+           </span>
+
+
+           <button
+               class="quick-view"
+               data-image="images/001-rain-poodle.svg">
+
+               QUICK VIEW
+
+           </button>
+
+
+           <div class="product-image">
+
+               <img
+                   src="images/001-rain-poodle.svg"
+                   alt="Rain Poodle">
+
+           </div>
+
+
+           <div class="product-info">
+
+               <div class="product-meta">
+
+                   <span>DOG</span>
+
+                   <span>001</span>
+
+               </div>
+
+
+               <h3>
+
+                   Rain Poodle
+
+               </h3>
+
+
+               <p class="product-description">
+
+                   RAIN MAKES ME GROW
+
+               </p>
+
+
+               <div class="buy-row">
+
+                   <span class="price">
+                       ¥3,980
+                   </span>
+
+                   <span class="color">
+                       BLACK
+                   </span>
+
+               </div>
+
+
+               <a
+                   href="https://www.amazon.co.jp/"
+                   class="amazon-button"
+                   target="_blank">
+
+                   BUY ON AMAZON ↗
+
+               </a>
+
+           </div>
+
+       </article>
+
+
+       <!-- 02 -->
+
+       <article
+           class="product"
+           data-category="dog"
+           data-name="rain chihuahua">
+
+
+           <span class="badge">
+               NEW
+           </span>
+
+
+           <button
+               class="quick-view"
+               data-image="images/002-rain-chihuahua.svg">
+
+               QUICK VIEW
+
+           </button>
+
+
+           <div class="product-image">
+
+               <img
+                   src="images/002-rain-chihuahua.svg"
+                   alt="Rain Chihuahua">
+
+           </div>
+
+
+           <div class="product-info">
+
+               <div class="product-meta">
+
+                   <span>DOG</span>
+                   <span>002</span>
+
+               </div>
+
+
+               <h3>
+                   Rain Chihuahua
+               </h3>
+
+
+               <p class="product-description">
+
+                   SMALL DOG. BIG WEATHER.
+
+               </p>
+
+
+               <div class="buy-row">
+
+                   <span class="price">
+                       ¥3,980
+                   </span>
+
+                   <span class="color">
+                       BLACK
+                   </span>
+
+               </div>
+
+
+               <a
+                   href="https://www.amazon.co.jp/"
+                   class="amazon-button"
+                   target="_blank">
+
+                   BUY ON AMAZON ↗
+
+               </a>
+
+           </div>
+
+       </article>
+
+
+       <!-- 03 -->
+
+       <article
+           class="product"
+           data-category="dog"
+           data-name="moss shiba">
+
+
+           <span class="badge">
+               NEW
+           </span>
+
+
+           <button
+               class="quick-view"
+               data-image="images/003-moss-shiba.svg">
+
+               QUICK VIEW
+
+           </button>
+
+
+           <div class="product-image">
+
+               <img
+                   src="images/003-moss-shiba.svg"
+                   alt="Moss Shiba">
+
+           </div>
+
+
+           <div class="product-info">
+
+               <div class="product-meta">
+
+                   <span>DOG</span>
+                   <span>003</span>
+
+               </div>
+
+
+               <h3>
+                   Moss Shiba
+               </h3>
+
+
+               <p class="product-description">
+                   GROW WILD
+               </p>
+
+
+               <div class="buy-row">
+
+                   <span class="price">
+                       ¥3,980
+                   </span>
+
+                   <span class="color">
+                       NATURAL
+                   </span>
+
+               </div>
+
+
+               <a
+                   href="https://www.amazon.co.jp/"
+                   class="amazon-button"
+                   target="_blank">
+
+                   BUY ON AMAZON ↗
+
+               </a>
+
+           </div>
+
+       </article>
+
+
+       <!-- 04 -->
+
+       <article
+           class="product"
+           data-category="dog"
+           data-name="dachshund garden">
+
+
+           <span class="badge">
+               NEW
+           </span>
+
+
+           <button
+               class="quick-view"
+               data-image="images/004-dachshund-garden.svg">
+
+               QUICK VIEW
+
+           </button>
+
+
+           <div class="product-image">
+
+               <img
+                   src="images/004-dachshund-garden.svg"
+                   alt="Dachshund Garden">
+
+           </div>
+
+
+           <div class="product-info">
+
+               <div class="product-meta">
+
+                   <span>DOG</span>
+                   <span>004</span>
+
+               </div>
+
+
+               <h3>
+                   Dachshund Garden
+               </h3>
+
+
+               <p class="product-description">
+                   GROW YOUR OWN WAY
+               </p>
+
+
+               <div class="buy-row">
+
+                   <span class="price">
+                       ¥3,980
+                   </span>
+
+                   <span class="color">
+                       CHARCOAL
+                   </span>
+
+               </div>
+
+
+               <a
+                   href="https://www.amazon.co.jp/"
+                   class="amazon-button"
+                   target="_blank">
+
+                   BUY ON AMAZON ↗
+
+               </a>
+
+           </div>
+
+       </article>
+
+
+       <!-- 05 -->
+
+       <article
+           class="product"
+           data-category="dog"
+           data-name="cloud pom">
+
+
+           <span class="badge">
+               NEW
+           </span>
+
+
+           <button
+               class="quick-view"
+               data-image="images/005-cloud-pom.svg">
+
+               QUICK VIEW
+
+           </button>
+
+
+           <div class="product-image">
+
+               <img
+                   src="images/005-cloud-pom.svg"
+                   alt="Cloud Pom">
+
+           </div>
+
+
+           <div class="product-info">
+
+               <div class="product-meta">
+
+                   <span>DOG</span>
+                   <span>005</span>
+
+               </div>
+
+
+               <h3>
+                   Cloud Pom
+               </h3>
+
+
+               <p class="product-description">
+                   MY CLOUD HAS PAWS
+               </p>
+
+
+               <div class="buy-row">
+
+                   <span class="price">
+                       ¥3,980
+                   </span>
+
+                   <span class="color">
+                       IVORY
+                   </span>
+
+               </div>
+
+
+               <a
+                   href="https://www.amazon.co.jp/"
+                   class="amazon-button"
+                   target="_blank">
+
+                   BUY ON AMAZON ↗
+
+               </a>
+
+           </div>
+
+       </article>
+
+
+       <!-- 06 -->
+
+       <article
+           class="product"
+           data-category="cat"
+           data-name="rain cat">
+
+
+           <span class="badge">
+               NEW
+           </span>
+
+
+           <button
+               class="quick-view"
+               data-image="images/006-rain-cat.svg">
+
+               QUICK VIEW
+
+           </button>
+
+
+           <div class="product-image">
+
+               <img
+                   src="images/006-rain-cat.svg"
+                   alt="Rain Cat">
+
+           </div>
+
+
+           <div class="product-info">
+
+               <div class="product-meta">
+
+                   <span>CAT</span>
+                   <span>006</span>
+
+               </div>
+
+
+               <h3>
+                   Rain Cat
+               </h3>
+
+
+               <p class="product-description">
+                   STAY SOFT. GROW WILD.
+               </p>
+
+
+               <div class="buy-row">
+
+                   <span class="price">
+                       ¥3,980
+                   </span>
+
+                   <span class="color">
+                       BLACK
+                   </span>
+
+               </div>
+
+
+               <a
+                   href="https://www.amazon.co.jp/"
+                   class="amazon-button"
+                   target="_blank">
+
+                   BUY ON AMAZON ↗
+
+               </a>
+
+           </div>
+
+       </article>
+
+
+       <!-- 07 -->
+
+       <article
+           class="product"
+           data-category="cat"
+           data-name="tiny paws">
+
+
+           <span class="badge">
+               NEW
+           </span>
+
+
+           <button
+               class="quick-view"
+               data-image="images/007-tiny-paws.svg">
+
+               QUICK VIEW
+
+           </button>
+
+
+           <div class="product-image">
+
+               <img
+                   src="images/007-tiny-paws.svg"
+                   alt="Tiny Paws">
+
+           </div>
+
+
+           <div class="product-info">
+
+               <div class="product-meta">
+
+                   <span>CAT</span>
+                   <span>007</span>
+
+               </div>
+
+
+               <h3>
+                   Tiny Paws
+               </h3>
+
+
+               <p class="product-description">
+                   TINY PAWS. WILD DREAMS.
+               </p>
+
+
+               <div class="buy-row">
+
+                   <span class="price">
+                       ¥3,980
+                   </span>
+
+                   <span class="color">
+                       CHARCOAL
+                   </span>
+
+               </div>
+
+
+               <a
+                   href="https://www.amazon.co.jp/"
+                   class="amazon-button"
+                   target="_blank">
+
+                   BUY ON AMAZON ↗
+
+               </a>
+
+           </div>
+
+       </article>
+
+
+       <!-- 08 -->
+
+       <article
+           class="product"
+           data-category="cat"
+           data-name="rain ragdoll">
+
+
+           <span class="badge">
+               NEW
+           </span>
+
+
+           <button
+               class="quick-view"
+               data-image="images/008-rain-ragdoll.svg">
+
+               QUICK VIEW
+
+           </button>
+
+
+           <div class="product-image">
+
+               <img
+                   src="images/008-rain-ragdoll.svg"
+                   alt="Rain Ragdoll">
+
+           </div>
+
+
+           <div class="product-info">
+
+               <div class="product-meta">
+
+                   <span>CAT</span>
+                   <span>008</span>
+
+               </div>
+
+
+               <h3>
+                   Rain Ragdoll
+               </h3>
+
+
+               <p class="product-description">
+                   FLOW WITH THE RAIN
+               </p>
+
+
+               <div class="buy-row">
+
+                   <span class="price">
+                       ¥3,980
+                   </span>
+
+                   <span class="color">
+                       NAVY
+                   </span>
+
+               </div>
+
+
+               <a
+                   href="https://www.amazon.co.jp/"
+                   class="amazon-button"
+                   target="_blank">
+
+                   BUY ON AMAZON ↗
+
+               </a>
+
+           </div>
+
+       </article>
+
+
+       <!-- 09 -->
+
+       <article
+           class="product"
+           data-category="cat"
+           data-name="forest siberian">
+
+
+           <span class="badge">
+               NEW
+           </span>
+
+
+           <button
+               class="quick-view"
+               data-image="images/009-forest-siberian.svg">
+
+               QUICK VIEW
+
+           </button>
+
+
+           <div class="product-image">
+
+               <img
+                   src="images/009-forest-siberian.svg"
+                   alt="Forest Siberian">
+
+           </div>
+
+
+           <div class="product-info">
+
+               <div class="product-meta">
+
+                   <span>CAT</span>
+                   <span>009</span>
+
+               </div>
+
+
+               <h3>
+                   Forest Siberian
+               </h3>
+
+
+               <p class="product-description">
+                   BORN FOR THE WILD
+               </p>
+
+
+               <div class="buy-row">
+
+                   <span class="price">
+                       ¥3,980
+                   </span>
+
+                   <span class="color">
+                       FOREST
+                   </span>
+
+               </div>
+
+
+               <a
+                   href="https://www.amazon.co.jp/"
+                   class="amazon-button"
+                   target="_blank">
+
+                   BUY ON AMAZON ↗
+
+               </a>
+
+           </div>
+
+       </article>
+
+
+       <!-- 10 -->
+
+       <article
+           class="product"
+           data-category="cat"
+           data-name="rainy day cat">
+
+
+           <span class="badge">
+               NEW
+           </span>
+
+
+           <button
+               class="quick-view"
+               data-image="images/010-rainy-day-cat.svg">
+
+               QUICK VIEW
+
+           </button>
+
+
+           <div class="product-image">
+
+               <img
+                   src="images/010-rainy-day-cat.svg"
+                   alt="Rainy Day Cat">
+
+           </div>
+
+
+           <div class="product-info">
+
+               <div class="product-meta">
+
+                   <span>CAT</span>
+                   <span>010</span>
+
+               </div>
+
+
+               <h3>
+                   Rainy Day Cat
+               </h3>
+
+
+               <p class="product-description">
+                   RAINY DAYS ARE FOR CATS
+               </p>
+
+
+               <div class="buy-row">
+
+                   <span class="price">
+                       ¥3,980
+                   </span>
+
+                   <span class="color">
+                       BLACK
+                   </span>
+
+               </div>
+
+
+               <a
+                   href="https://www.amazon.co.jp/"
+                   class="amazon-button"
+                   target="_blank">
+
+                   BUY ON AMAZON ↗
+
+               </a>
+
+           </div>
+
+       </article>
+
+
+   </div>
+
+</section>
+
+
+<!-- STORY -->
+
+<section
+   class="story"
+   id="story">
+
+   <div class="story-inner">
+
+
+       <div>
+
+           <div class="kicker">
+
+               02 / OUR STORY
+
+           </div>
+
+
+           <h2>
+
+               WEAR THE<br>
+
+               <span>RAIN.</span>
+
+           </h2>
+
+
+           <p>
+
+               雨の日、
+               街の色は少しだけ変わる。
+
+           </p>
+
+
+           <p>
+
+               濡れた葉、
+               静かな路地、
+               小さな動物たち。
+
+               RAIN ANIMALSは、
+               そんな一瞬の景色を
+               Tシャツにしています。
+
+           </p>
+
+
+           <p>
+
+               かわいいだけではなく、
+               少し静かで、
+               少し都会的。
+
+           </p>
+
+       </div>
+
+
+       <div class="story-card">
+
+           <div>
+
+               <div class="kicker">
+
+                   RAIN • ANIMALS • PLANTS
+
+               </div>
+
+           </div>
+
+
+           <div class="story-symbol">
+
+               🌧️🐾🌿
+
+           </div>
+
+
+           <div>
+
+               <div class="kicker">
+
+                   A SMALL BRAND
+                   FOR RAINY DAYS.
+
+               </div>
+
+           </div>
+
+       </div>
+
+
+   </div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section
+   class="section"
+   id="about">
+
+   <div class="section-head">
+
+       <div>
+
+           <div class="kicker">
+
+               03 / ABOUT
+
+           </div>
+
+           <h2>
+
+               FIND YOUR<br>
+               ANIMAL.
+
+           </h2>
+
+       </div>
+
+
+       <p>
+
+           好きな動物を選ぶ。
+
+           そこから
+           RAIN ANIMALSの
+           ストーリーが始まります。
+
+       </p>
+
+   </div>
+
+</section>
+
+
+<!-- MANIFESTO -->
+
+<section class="manifesto">
+
+   <h2>
+
+       LET IT<br>
+
+       <span>RAIN.</span>
+
+   </h2>
+
+
+   <p>
+
+       FIND YOUR ANIMAL.
+
+   </p>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+   <div>
+
+       © 2026 RAIN ANIMALS
+
+   </div>
+
+
+   <div>
+
+       <a href="#">
+           INSTAGRAM
+       </a>
+
+
+       <a
+           href="https://www.amazon.co.jp/"
+           target="_blank">
+
+           AMAZON STORE ↗
+
+       </a>
+
+   </div>
+
+</footer>
+
+
+<!-- QUICK VIEW MODAL -->
+
+<div
+   class="modal"
+   id="modal">
+
+
+   <div class="modal-box">
+
+
+       <button
+           class="close"
+           id="close">
+
+           ×
+
+       </button>
+
+
+       <img
+           id="modalImage"
+           src=""
+           alt="">
+
+   </div>
+
+</div>
+
+
+<script>
+
+/* =========================
+  FILTER
+========================= */
+
+const filters =
+   document.querySelectorAll(".filter");
+
+const products =
+   document.querySelectorAll(".product");
+
+const search =
+   document.getElementById("search");
+
+
+function filterProducts() {
+
+   const activeFilter =
+       document
+       .querySelector(".filter.active")
+       .dataset.filter;
+
+   const keyword =
+       search.value
+       .toLowerCase()
+       .trim();
+
+
+   products.forEach(product => {
+
+       const category =
+           product.dataset.category;
+
+       const name =
+           product.dataset.name;
+
+
+       const categoryOK =
+           activeFilter === "all"
+           ||
+           category === activeFilter;
+
+
+       const searchOK =
+           !keyword
+           ||
+           name.includes(keyword);
+
+
+       if(categoryOK && searchOK) {
+
+           product.style.display = "";
+
+       } else {
+
+           product.style.display = "none";
+
+       }
+
+   });
+
+}
+
+
+filters.forEach(button => {
+
+   button.addEventListener(
+       "click",
+       () => {
+
+           filters.forEach(btn => {
+
+               btn.classList.remove(
+                   "active"
+               );
+
+           });
+
+
+           button.classList.add(
+               "active"
+           );
+
+
+           filterProducts();
+
+       }
+   );
+
+});
+
+
+search.addEventListener(
+   "input",
+   filterProducts
+);
+
+
+/* =========================
+  QUICK VIEW
+========================= */
+
+const modal =
+   document.getElementById("modal");
+
+const modalImage =
+   document.getElementById("modalImage");
+
+const close =
+   document.getElementById("close");
+
+
+document
+.querySelectorAll(".quick-view")
+.forEach(button => {
+
+   button.addEventListener(
+       "click",
+       () => {
+
+           modalImage.src =
+               button.dataset.image;
+
+           modal.classList.add(
+               "active"
+           );
+
+       }
+   );
+
+});
+
+
+close.addEventListener(
+   "click",
+   () => {
+
+       modal.classList.remove(
+           "active"
+       );
+
+   }
+);
+
+
+modal.addEventListener(
+   "click",
+   event => {
+
+       if(event.target === modal) {
+
+           modal.classList.remove(
+               "active"
+           );
+
+       }
+
+   }
+);
+
+</script>
+
+
+</body>
+</html>
